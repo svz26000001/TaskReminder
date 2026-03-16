@@ -1,5 +1,5 @@
 ﻿TOKEN = "8372571348:AAFzMByt_FgK-pkRZNYVB7AziwfwOpvDZM0"
-OPENAI_KEY = "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"
+OPENAI_KEY = "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"
 
 import asyncio
 import json
@@ -178,7 +178,6 @@ async def main():
     asyncio.create_task(reminder_worker())
 
     await dp.start_polling(bot)
-
 
 if __name__ == "__main__":
     asyncio.run(main())
